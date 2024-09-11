@@ -1,0 +1,91 @@
+@font-face {
+    font-family: minecraft;
+    src: url('Minecraft.ttf');
+}
+ body{
+    font-family: minecraft;
+    color: white;
+    background-image: url('images.jfif') ; 
+    background-size: cover;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .infos{
+    padding: 16px;
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+  .nome{
+    font-size: 48px;
+    padding-bottom: 8px ;
+  }
+  .habilidades1{
+    font-size: 24px;
+  }
+  .habilidades2{
+    font-size: 16px;
+  }
+  .icon{
+    width: 45px;
+    filter: invert(100%);
+  }
+  .botoes{
+    padding-top: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+  }
+  .botao{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border:2px solid white;
+    border-radius: 20px;
+    padding: 16px;
+    transition: all 1s;
+  }
+  .botao:hover{transform: rotate(360deg);}
+
+  .sobre-mim{
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(133, 130, 130, 0.3);
+    transition: 3s;
+
+  }
+  .sobre-mim:hover{
+    transform: scale(1.3);
+    margin: 50px;
+
+    
+  }
+  .portifolio{
+    margin-top: 100px;
+    width: 750px;
+    display:flex;
+   flex-wrap: wrap;
+   padding: 100px;
+   
+
+    
+  }
+  .projetos{
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 5px 2px black;
+    
+    
+    
+    
+
+
+    
+    
+  }
